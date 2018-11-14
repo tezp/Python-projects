@@ -1,4 +1,4 @@
-import struct  # for pack and unpack
+import struct  # structure contains complete raw packet
 import socket  # for socket
 
 def unpack_ip_frame(raw_ip_data):
