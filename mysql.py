@@ -10,7 +10,6 @@ try:
     for row in curs.fetchall():
         print("Name: %s, Address: %s" % (row[1], row[2]))
 
-        
 except Exception as e:
     print(e)
 
