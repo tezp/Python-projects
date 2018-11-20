@@ -1,1 +1,1 @@
-This is sample file to check database connection.
+This projects are created in python. You have to install python3 to run these projects.
