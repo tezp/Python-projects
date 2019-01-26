@@ -12,7 +12,7 @@ if len(sys.argv) != 3:
     sys.exit(1)
 
 r = requests.get(sys.argv[2])
-soup = bs(r.text, 'html.parser')
+soup = bs(r.text, 'lxml')
 print("Video Details : ")
 title = soup.find('span', {'id': 'eow-title', 'dir': 'ltr'})
 print(title.string.strip())
