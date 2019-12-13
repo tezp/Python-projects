@@ -1,5 +1,4 @@
-'''  I was studying one technology by watching downloaded videos. 
-I want to know the time required to watch all videos. Hence, python helped me to do this. '''
+'''  This script will be used to calculate total time for videos present in folder. '''
 
 from moviepy.editor import VideoFileClip
 import os
